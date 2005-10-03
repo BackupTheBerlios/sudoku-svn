@@ -537,11 +537,11 @@ int main()
 		s81values[x] = 1;
 	      }
 	  }
-	if (y == 9)
+	if (y == 10)
 	  {
-	    if (values[9] != 0)
+	    if (values[10] != 0)
 	      {
-		x = values[9];
+		x = values[10];
 		s10values[x] = 1;
 		s11values[x] = 1;
 		s12values[x] = 1;
@@ -563,6 +563,174 @@ int main()
 		s55values[x] = 1;
 		s64values[x] = 1;
 		s73values[x] = 1;
+	      }
+	  }
+	  if (y == 11)
+	  {
+	    if (values[11] != 0)
+	      {
+		x = values[11];
+		s10values[x] = 1;
+		s11values[x] = 1;
+		s12values[x] = 1;
+		s13values[x] = 1;
+		s14values[x] = 1;
+		s15values[x] = 1;
+		s16values[x] = 1;
+		s17values[x] = 1;
+		s18values[x] = 1;
+		s1values[x] = 1;
+		s2values[x] = 1;
+		s3values[x] = 1;
+		s19values[x] = 1;
+		s20values[x] = 1;
+		s21values[x] = 1;
+		s29values[x] = 1;
+		s38values[x] = 1;
+		s47values[x] = 1;
+		s56values[x] = 1;
+		s65values[x] = 1;
+		s74values[x] = 1;
+	      }
+	  }
+	  if (y == 12)
+	  {
+	    if (values[12] != 0)
+	      {
+		x = values[12];
+		s10values[x] = 1;
+		s11values[x] = 1;
+		s12values[x] = 1;
+		s13values[x] = 1;
+		s14values[x] = 1;
+		s15values[x] = 1;
+		s16values[x] = 1;
+		s17values[x] = 1;
+		s18values[x] = 1;
+		s1values[x] = 1;
+		s2values[x] = 1;
+		s3values[x] = 1;
+		s19values[x] = 1;
+		s20values[x] = 1;
+		s21values[x] = 1;
+		s30values[x] = 1;
+		s39values[x] = 1;
+		s48values[x] = 1;
+		s57values[x] = 1;
+		s66values[x] = 1;
+		s75values[x] = 1;
+	      }
+	  }
+	  if (y == 13)
+	  {
+	    if (values[13] != 0)
+	      {
+		x = values[13];
+		s10values[x] = 1;
+		s11values[x] = 1;
+		s12values[x] = 1;
+		s13values[x] = 1;
+		s14values[x] = 1;
+		s15values[x] = 1;
+		s16values[x] = 1;
+		s17values[x] = 1;
+		s18values[x] = 1;
+		s4values[x] = 1;
+		s5values[x] = 1;
+		s6values[x] = 1;
+		s22values[x] = 1;
+		s23values[x] = 1;
+		s24values[x] = 1;
+		s31values[x] = 1;
+		s40values[x] = 1;
+		s49values[x] = 1;
+		s58values[x] = 1;
+		s67values[x] = 1;
+		s76values[x] = 1;
+	      }
+	  }
+	  if (y == 14)
+	  {
+	    if (values[14] != 0)
+	      {
+		x = values[14];
+		s10values[x] = 1;
+		s11values[x] = 1;
+		s12values[x] = 1;
+		s13values[x] = 1;
+		s14values[x] = 1;
+		s15values[x] = 1;
+		s16values[x] = 1;
+		s17values[x] = 1;
+		s18values[x] = 1;
+		s4values[x] = 1;
+		s5values[x] = 1;
+		s6values[x] = 1;
+		s22values[x] = 1;
+		s23values[x] = 1;
+		s24values[x] = 1;
+		s32values[x] = 1;
+		s41values[x] = 1;
+		s50values[x] = 1;
+		s59values[x] = 1;
+		s68values[x] = 1;
+		s77values[x] = 1;
+	      }
+	  }
+	  if (y == 15)
+	  {
+	    if (values[15] != 0)
+	      {
+		x = values[15];
+		s10values[x] = 1;
+		s11values[x] = 1;
+		s12values[x] = 1;
+		s13values[x] = 1;
+		s14values[x] = 1;
+		s15values[x] = 1;
+		s16values[x] = 1;
+		s17values[x] = 1;
+		s18values[x] = 1;
+		s4values[x] = 1;
+		s5values[x] = 1;
+		s6values[x] = 1;
+		s22values[x] = 1;
+		s23values[x] = 1;
+		s24values[x] = 1;
+		s33values[x] = 1;
+		s42values[x] = 1;
+		s51values[x] = 1;
+		s60values[x] = 1;
+		s69values[x] = 1;
+		s78values[x] = 1;
+	      }
+	  }
+	  if (y == 16)
+	  {
+	    if (values[16] != 0)
+	      {
+		x = values[16];
+		s10values[x] = 1;
+		s11values[x] = 1;
+		s12values[x] = 1;
+		s13values[x] = 1;
+		s14values[x] = 1;
+		s15values[x] = 1;
+		s16values[x] = 1;
+		s17values[x] = 1;
+		s18values[x] = 1;
+		s4values[x] = 1;
+		s5values[x] = 1;
+		s6values[x] = 1;
+		s22values[x] = 1;
+		s23values[x] = 1;
+		s24values[x] = 1;
+		s35values[x] = 1;
+		s44values[x] = 1;
+		s53values[x] = 1;
+		s62values[x] = 1;
+		s71values[x] = 1;
+		s80values[x] = 1;
 	      }
 	  }
 return(0);
