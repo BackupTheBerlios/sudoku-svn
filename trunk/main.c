@@ -15,24 +15,28 @@
  */
 
 #include <stdio.h>
-int main()
+int
+main ()
 {
 
-	int enterloop;
-	int a;
-	int y;
-	int x;
-    
-    puts("Please enter the puzzles numbers from left to right, top to bottom.");
-    puts("After entering a number, press return then enter the next number.");
-    puts("Contine until all 81 numbers have been entered.");
-    puts("If a space is blank (has no number) then enter a 0 (thats a zero).");
-    puts("This works for 9*9 puzzles ONLY!\n");
-    puts("Enter 1st value:");
-    
-	getvalues();
-    for (a=0;a=81;a++)
-	{
-	numelim(a);
-	}
+  int enterloop;
+  int a;
+  int y;
+  int x;
+
+  puts
+    ("Please enter the puzzles numbers from left to right, top to bottom.");
+  puts ("After entering a number, press return then enter the next number.");
+  puts ("Contine until all 81 numbers have been entered.");
+  puts ("If a space is blank (has no number) then enter a 0 (thats a zero).");
+  puts ("This works for 9*9 puzzles ONLY!\n");
+  puts ("Enter 1st value:");
+
+  getvalues ();			/*this function prompts the user for a value at a time and stores it in the array values */
+  for (a = 0; a = 81; a++)	/*this runs the numelim function 81 times */
+    {
+      numelim (a);		//this function goes through each square and when it
+      //finds a value it eliminates it from the possible values array 
+      //for all the numbers in its row, column and 3*3 mini grid
+    }
 }
