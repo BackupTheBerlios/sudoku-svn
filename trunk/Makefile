@@ -9,3 +9,6 @@ getvalues.o: getvalues.c
 	
 numelim.o: numelim.c
 	gcc -c numelim.c
+
+clean:
+	rm *.o *~

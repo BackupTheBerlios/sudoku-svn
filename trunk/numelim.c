@@ -13,10 +13,11 @@
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
-/***********this is producing loads of errors and warnings****************/
 numelim (int y)
 {
   int x;
+  int loop;
+  char pvalues[81];
   char s1values[9];
   char s2values[9];
   char s3values[9];
@@ -98,12 +99,15 @@ numelim (int y)
   char s79values[9];
   char s80values[9];
   char s81values[9];
-
+  for (loop=0;loop=81;loop++)
+  {
+  	pvalues[loop] = extern values[loop];
+  }
   if (y == 0)
     {
-      if (extern values[0] != 0)
+      if (pvalues[0] != 0)
 	{
-	  x = extern values[0];
+	  x = pvalues[0];
 	  s1values[x] = 1;
 	  s2values[x] = 1;
 	  s3values[x] = 1;
@@ -128,9 +132,9 @@ numelim (int y)
 	}
       if (y == 1)
 	{
-	  if (extern values[1] != 0)
+	  if (pvalues[1] != 0)
 	    {
-	      x = extern values[1];
+	      x = pvalues[1];
 	      s1values[x] = 1;
 	      s2values[x] = 1;
 	      s3values[x] = 1;
@@ -156,9 +160,9 @@ numelim (int y)
 	}
       if (y == 2)
 	{
-	  if (extern values[2] != 0)
+	  if (pvalues[2] != 0)
 	    {
-	      x = extern values[2];
+	      x = pvalues[2];
 	      s1values[x] = 1;
 	      s2values[x] = 1;
 	      s3values[x] = 1;
@@ -184,9 +188,9 @@ numelim (int y)
 	}
       if (y == 3)
 	{
-	  if (extern values[3] != 0)
+	  if (pvalues[3] != 0)
 	    {
-	      x = extern values[3];
+	      x = pvalues[3];
 	      s1values[x] = 1;
 	      s2values[x] = 1;
 	      s3values[x] = 1;
@@ -212,7 +216,7 @@ numelim (int y)
 	}
       if (y == 4)
 	{
-	  if (extern values[4] != 0)
+	  if (pvalues[4] != 0)
 	    {
 	      s1values[x] = 1;
 	      s2values[x] = 1;
@@ -242,9 +246,9 @@ numelim (int y)
 	}
       if (y == 5)
 	{
-	  if (extern values[5] != 0)
+	  if (pvalues[5] != 0)
 	    {
-	      x = extern values[5];
+	      x = pvalues[5];
 	      s1values[x] = 1;
 	      s2values[x] = 1;
 	      s3values[x] = 1;
@@ -270,9 +274,9 @@ numelim (int y)
 	}
       if (y == 6)
 	{
-	  if (extern values[6] != 0)
+	  if (pvalues[6] != 0)
 	    {
-	      x = extern values[6];
+	      x = pvalues[6];
 	      s1values[x] = 1;
 	      s2values[x] = 1;
 	      s3values[x] = 1;
@@ -298,9 +302,9 @@ numelim (int y)
 	}
       if (y == 7)
 	{
-	  if (extern values[7] != 0)
+	  if (pvalues[7] != 0)
 	    {
-	      x = extern values[7];
+	      x = pvalues[7];
 	      s1values[x] = 1;
 	      s2values[x] = 1;
 	      s3values[x] = 1;
@@ -326,9 +330,9 @@ numelim (int y)
 	}
       if (y == 8)
 	{
-	  if (extern values[8] != 0)
+	  if (pvalues[8] != 0)
 	    {
-	      x = extern values[8];
+	      x = pvalues[8];
 	      s1values[x] = 1;
 	      s2values[x] = 1;
 	      s3values[x] = 1;
@@ -354,9 +358,9 @@ numelim (int y)
 	}
       if (y == 10)
 	{
-	  if (extern values[10] != 0)
+	  if (pvalues[10] != 0)
 	    {
-	      x = extern values[10];
+	      x = pvalues[10];
 	      s10values[x] = 1;
 	      s11values[x] = 1;
 	      s12values[x] = 1;
@@ -382,9 +386,9 @@ numelim (int y)
 	}
       if (y == 11)
 	{
-	  if (extern values[11] != 0)
+	  if (pvalues[11] != 0)
 	    {
-	      x = extern values[11];
+	      x = pvalues[11];
 	      s10values[x] = 1;
 	      s11values[x] = 1;
 	      s12values[x] = 1;
@@ -410,9 +414,9 @@ numelim (int y)
 	}
       if (y == 12)
 	{
-	  if (extern values[12] != 0)
+	  if (pvalues[12] != 0)
 	    {
-	      x = extern values[12];
+	      x = pvalues[12];
 	      s10values[x] = 1;
 	      s11values[x] = 1;
 	      s12values[x] = 1;
@@ -438,9 +442,9 @@ numelim (int y)
 	}
       if (y == 13)
 	{
-	  if (extern values[13] != 0)
+	  if (pvalues[13] != 0)
 	    {
-	      x = extern values[13];
+	      x = pvalues[13];
 	      s10values[x] = 1;
 	      s11values[x] = 1;
 	      s12values[x] = 1;
@@ -466,9 +470,9 @@ numelim (int y)
 	}
       if (y == 14)
 	{
-	  if (extern values[14] != 0)
+	  if (pvalues[14] != 0)
 	    {
-	      x = extern values[14];
+	      x = pvalues[14];
 	      s10values[x] = 1;
 	      s11values[x] = 1;
 	      s12values[x] = 1;
@@ -494,9 +498,9 @@ numelim (int y)
 	}
       if (y == 15)
 	{
-	  if (extern values[15] != 0)
+	  if (pvalues[15] != 0)
 	    {
-	      x = extern values[15];
+	      x = pvalues[15];
 	      s10values[x] = 1;
 	      s11values[x] = 1;
 	      s12values[x] = 1;
@@ -522,9 +526,9 @@ numelim (int y)
 	}
       if (y == 16)
 	{
-	  if (extern values[16] != 0)
+	  if (pvalues[16] != 0)
 	    {
-	      x = extern values[16];
+	      x = pvalues[16];
 	      s10values[x] = 1;
 	      s11values[x] = 1;
 	      s12values[x] = 1;
